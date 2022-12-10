@@ -10,14 +10,14 @@
   "minzoom": 0,
   "maxzoom": 14,
   "bounds": [
-    1.412368,
-    42.4276,
-    1.787481,
-    42.65717
+    7.409205,
+    43.72335,
+    7.448637,
+    43.75169
   ],
   "center": [
-    1.599925,
-    42.542385,
+    7.428921,
+    43.73752,
     7
   ],
   "vector_layers": [
@@ -62,12 +62,7 @@
     },
     {
       "id": "waterway",
-      "fields": {
-        "brunnel": "String",
-        "class": "String",
-        "intermittent": "Number",
-        "name:latin": "String"
-      },
+      "fields": {},
       "minzoom": 8,
       "maxzoom": 14
     },
@@ -87,10 +82,7 @@
       "id": "transportation_name",
       "fields": {
         "class": "String",
-        "name:latin": "String",
-        "network": "String",
-        "ref": "String",
-        "ref_length": "Number"
+        "name:latin": "String"
       },
       "minzoom": 8,
       "maxzoom": 14
@@ -116,7 +108,6 @@
     {
       "id": "water_name",
       "fields": {
-        "class": "String",
         "name:latin": "String"
       },
       "minzoom": 14,
@@ -139,10 +130,7 @@
     },
     {
       "id": "park",
-      "fields": {
-        "class": "String",
-        "name:latin": "String"
-      },
+      "fields": {},
       "minzoom": 11,
       "maxzoom": 14
     },
@@ -165,13 +153,7 @@
     },
     {
       "id": "mountain_peak",
-      "fields": {
-        "class": "String",
-        "ele": "Number",
-        "ele_ft": "Number",
-        "name:latin": "String",
-        "rank": "Number"
-      },
+      "fields": {},
       "minzoom": 11,
       "maxzoom": 14
     }
